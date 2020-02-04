@@ -6,9 +6,19 @@ authors = ["laike9m <laike9m@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.6 3.7"
+python = "^3.6"
+pyppeteer = "0.0.25"
+fastapi = "^0.47.1"
+aiofiles = "^0.4.0"
+uvicorn = "^0.11.2"
 
 [tool.poetry.dev-dependencies]
+
+[tool.pylint.messages_control]
+disable = """
+bad-continuation,attribute-defined-outside-init,W0511,R0902,R0913,W0622,C0116,C0103,
+R0903,W0631,W0212,W0603,R1710,R0201
+"""
 
 [build-system]
 requires = ["poetry>=0.12"]

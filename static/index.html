@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RSSHub 知乎小助手</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<style>
+  #chosen_user p {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  img {
+    width: 38px;
+  }
+
+  button.pick {
+    color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  button.remove {
+    color: red;
+  }
+</style>
+
+<body>
+  <center>
+
+    <label for="search-box">
+      Username:
+    </label>
+    <input id="search-box" type="text" class="form-control" placeholder="输入想搜索的用户名" />
+    </div>
+    <button id="search-button" class="btn btn-primary">
+      Search
+    </button>
+
+    <!-- Search result -->
+    <ul id="candiate_list"></ul>
+
+    <p>已选择的用户</p>
+    <button id="dump-opml">生成 OPML（文件位于 ~/Desktop/zhihu_feeds.opml）</button>
+    <ul id="chosen_user"></ul>
+
+
+  </center>
+  <script src="/static/fetch_info.js"></script>
+
+</body>
+
+</html>
