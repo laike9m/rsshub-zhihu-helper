@@ -66,7 +66,7 @@ uvicorn main:app --reload
 </opml>
 ```
 
-这就是包含了两个用户动态 feed 的 OPML 文件。
+之前不是选了两个用户吗？这就是包含了两个用户动态 feed 的 OPML 文件。
 
 ## 4. 导入 RSS 阅读器
 
