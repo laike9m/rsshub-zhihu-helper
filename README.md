@@ -53,7 +53,7 @@ uvicorn main:app --reload
 
 ![](static/usage.gif)
 
-最后在桌面上会生成一个 `zhihu_feeds.xml` 文件，内容如下：
+随后在桌面上会生成一个 `zhihu_feeds.xml` 文件，内容如下：
 
 ```xml
 <opml version="2.0">
