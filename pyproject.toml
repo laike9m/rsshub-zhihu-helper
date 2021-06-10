@@ -8,7 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.6"
 pyppeteer = "0.0.25"
-fastapi = "^0.47.1"
+fastapi = "^0.65.2"
 aiofiles = "^0.4.0"
 uvicorn = "^0.11.7"
 
