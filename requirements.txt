@@ -38,8 +38,9 @@ pyee==7.0.1 \
     --hash=sha256:b0e5b89b17c8bd52a3c6517a545187907a8c69ce90169d29ebd8d2d5d7e4bc7d
 pyppeteer==0.0.25 \
     --hash=sha256:51fe769b722a1718043b74d12c20420f29e0dd9eeea2b66652b7f93a9ad465dd
-starlette==0.12.9 \
-    --hash=sha256:c2ac9a42e0e0328ad20fe444115ac5e3760c1ee2ac1ff8cdb5ec915c4a453411
+starlette==0.25.0 \
+    --hash=sha256:774f1df1983fd594b9b6fb3ded39c2aa1979d10ac45caac0f4255cbe2acb8628 \
+    --hash=sha256:854c71e73736c429c2bdb07801f2c76c9cba497e7c3cf4988fde5e95fe4cdb3c
 tqdm==4.42.0 \
     --hash=sha256:01464d5950e9a07a8e463c2767883d9616c099c6502f6c7ef4e2e11d3065bd35 \
     --hash=sha256:5865f5fef9d739864ff341ddaa69894173ebacedb1aaafcf014de56343d01d5c
